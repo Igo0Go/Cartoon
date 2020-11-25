@@ -42,6 +42,7 @@ public class ShootModule : MonoBehaviour
 
     private float currentShootPauseValue = 0;
 
+
     private void Awake()
     {
         shootSource = GetComponent<AudioSource>();
@@ -54,6 +55,9 @@ public class ShootModule : MonoBehaviour
         else
             LoopShoot();
     }
+
+    public void AnimStartShoot() => shoot = true;
+    public void AnimStopShoot() => shoot = false;
 
     private void ShootOnce()
     {

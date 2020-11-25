@@ -29,8 +29,8 @@ public class LaserRenderer : MonoBehaviour
     {
         for (int i = 0; i < controlPoints.Count; i++)
         {
-            outlineRenderer.SetPosition(i, controlPoints[i].position);
-            centerRenderer.SetPosition(i, controlPoints[i].position);
+            outlineRenderer.SetPosition(i, controlPoints[i].localPosition);
+            centerRenderer.SetPosition(i, controlPoints[i].localPosition);
         }
     }
 
