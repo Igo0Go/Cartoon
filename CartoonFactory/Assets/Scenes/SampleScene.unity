@@ -6574,11 +6574,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nestea
       objectReference: {fileID: 0}
-    - target: {fileID: 7089154323329104762, guid: a8f06d2be54315a4ea2b8c00ba802cbd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7089154323329104763, guid: a8f06d2be54315a4ea2b8c00ba802cbd,
         type: 3}
       propertyPath: m_LocalPosition.x
