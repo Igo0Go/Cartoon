@@ -5765,6 +5765,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6791867852196466297, guid: f7c98b0d49448964fa6bd6e44c7c4f93,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791867852196466297, guid: f7c98b0d49448964fa6bd6e44c7c4f93,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791867852196466297, guid: f7c98b0d49448964fa6bd6e44c7c4f93,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7c98b0d49448964fa6bd6e44c7c4f93, type: 3}
 --- !u!4 &1061735396673266400 stripped
@@ -5839,6 +5854,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Welding machine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791867852196466297, guid: f7c98b0d49448964fa6bd6e44c7c4f93,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791867852196466297, guid: f7c98b0d49448964fa6bd6e44c7c4f93,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791867852196466297, guid: f7c98b0d49448964fa6bd6e44c7c4f93,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7c98b0d49448964fa6bd6e44c7c4f93, type: 3}
