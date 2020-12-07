@@ -697,7 +697,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 110440, guid: c9816fa979b06ba4e9c222b529370cc2, type: 3}
       propertyPath: m_Name
-      value: Shark4
+      value: Shark1
       objectReference: {fileID: 0}
     - target: {fileID: 430564, guid: c9816fa979b06ba4e9c222b529370cc2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1082,7 +1082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 110440, guid: c9816fa979b06ba4e9c222b529370cc2, type: 3}
       propertyPath: m_Name
-      value: Shark1
+      value: Shark2
       objectReference: {fileID: 0}
     - target: {fileID: 439242, guid: c9816fa979b06ba4e9c222b529370cc2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1901,7 +1901,15 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2319444, guid: c8b6a28265cff5e4cb4355af1a24cfba, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319444, guid: c8b6a28265cff5e4cb4355af1a24cfba, type: 3}
       propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7e82286933390b4c9d8f1c5f2938d45, type: 2}
+    - target: {fileID: 2319444, guid: c8b6a28265cff5e4cb4355af1a24cfba, type: 3}
+      propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: f7e82286933390b4c9d8f1c5f2938d45, type: 2}
     m_RemovedComponents: []
