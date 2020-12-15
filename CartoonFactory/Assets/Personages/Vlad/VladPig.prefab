@@ -767,7 +767,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1803780886005717276}
-  m_LocalRotation: {x: -0.31645626, y: -0, z: -0, w: 0.94860715}
+  m_LocalRotation: {x: -0.17628898, y: -0, z: -0, w: 0.98433846}
   m_LocalPosition: {x: 0, y: 0, z: 0.161}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -777,7 +777,7 @@ Transform:
   - {fileID: 4698212192948833157}
   m_Father: {fileID: 5223448186148741386}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -36.897003, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -20.307001, y: 0, z: 0}
 --- !u!1 &2009776302230600851
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,6 +900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2666201184319745162}
+  - component: {fileID: 4637084138658576395}
   m_Layer: 0
   m_Name: PigAnimOrigin
   m_TagString: Untagged
@@ -922,6 +923,25 @@ Transform:
   m_Father: {fileID: 2543753456678363920}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &4637084138658576395
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2282543554391037699}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b192d0d2a1cf8064c949de39fb967456, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2377177389318492474
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,7 +1491,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3871061679173187534}
-  m_LocalRotation: {x: 0.31645626, y: -0, z: -0, w: 0.94860715}
+  m_LocalRotation: {x: 0.15681146, y: -0, z: -0, w: 0.9876285}
   m_LocalPosition: {x: 0, y: -0.004831955, z: 0.06639764}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1481,7 +1501,7 @@ Transform:
   - {fileID: 7364664200838671194}
   m_Father: {fileID: 1912345601539630320}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 18.044, y: 0, z: 0}
 --- !u!1 &4015517410067143737
 GameObject:
   m_ObjectHideFlags: 0
