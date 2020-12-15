@@ -19,7 +19,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -3.535, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -602,6 +602,13 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 3738240529
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 880173600
       attribute: 4
       script: {fileID: 0}
@@ -687,13 +694,6 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 285097986
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3738240529
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -851,7 +851,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -3.535
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3023,7 +3023,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Hips
+    path: Hips/RightLeg/RightSubLeg/RightFoot
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3033,17 +3033,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Hips
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Hips
+    path: Hips/RightLeg/RightSubLeg/RightFoot
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3062,8 +3052,18 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Hips/RightLeg/RightSubLeg/RightFoot
+    path: Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3073,7 +3073,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Hips/RightLeg/RightSubLeg/RightFoot
+    path: Hips
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0

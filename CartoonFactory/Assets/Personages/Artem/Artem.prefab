@@ -6857,7 +6857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2487547263661920438
 Transform:
   m_ObjectHideFlags: 0
@@ -6874,6 +6874,44 @@ Transform:
   m_Father: {fileID: 2194848226155570488}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1941282445
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5453952296368290795}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &72293798
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7140881464636817305}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &9047146149841982540
 GameObject:
   m_ObjectHideFlags: 0
@@ -6889,7 +6927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4795483896560944693
 Transform:
   m_ObjectHideFlags: 0
@@ -6986,6 +7024,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2194848226227870885}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7140881464636817305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9037645893887353660, guid: 7c4332eabfe8c4f409832f58b23ce4a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2194848226227870885}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5453952296368290795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6180625763226642254, guid: 7c4332eabfe8c4f409832f58b23ce4a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2194848226227870885}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4351411074281209841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7001,9 +7051,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireBall
       objectReference: {fileID: 0}
+    - target: {fileID: 1947871717301538, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4209731392266258, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.054
+      value: 0.014
       objectReference: {fileID: 0}
     - target: {fileID: 4209731392266258, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7075,17 +7129,17 @@ PrefabInstance:
     - target: {fileID: 198086061384069858, guid: a990e3ac1318b834488c784d851f42a9,
         type: 3}
       propertyPath: ShapeModule.radius.value
-      value: 0.63
+      value: 0.3429457
       objectReference: {fileID: 0}
     - target: {fileID: 198086061384069858, guid: a990e3ac1318b834488c784d851f42a9,
         type: 3}
       propertyPath: ClampVelocityModule.enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198086061384069858, guid: a990e3ac1318b834488c784d851f42a9,
         type: 3}
       propertyPath: VelocityModule.enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198086061384069858, guid: a990e3ac1318b834488c784d851f42a9,
         type: 3}
@@ -7155,17 +7209,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireBall
       objectReference: {fileID: 0}
+    - target: {fileID: 1947871717301538, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4209731392266258, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.054
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 4209731392266258, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.02
+      value: -0.003
       objectReference: {fileID: 0}
     - target: {fileID: 4209731392266258, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4209731392266258, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7229,17 +7287,17 @@ PrefabInstance:
     - target: {fileID: 198086061384069858, guid: a990e3ac1318b834488c784d851f42a9,
         type: 3}
       propertyPath: ShapeModule.radius.value
-      value: 0.63
+      value: 0.3429457
       objectReference: {fileID: 0}
     - target: {fileID: 198086061384069858, guid: a990e3ac1318b834488c784d851f42a9,
         type: 3}
       propertyPath: ClampVelocityModule.enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198086061384069858, guid: a990e3ac1318b834488c784d851f42a9,
         type: 3}
       propertyPath: VelocityModule.enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198086061384069858, guid: a990e3ac1318b834488c784d851f42a9,
         type: 3}
