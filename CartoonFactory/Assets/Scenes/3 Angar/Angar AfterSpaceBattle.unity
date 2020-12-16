@@ -336,7 +336,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.8773585, g: 0.864785, b: 0.7076807, a: 1}
-  m_Intensity: 1.3
+  m_Intensity: 1
   m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -428,7 +428,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.8773585, g: 0.864785, b: 0.7076807, a: 1}
-  m_Intensity: 1.3
+  m_Intensity: 1
   m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -623,38 +623,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 318478104}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &333652960
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 333652961}
-  m_Layer: 0
-  m_Name: EnemyShipZone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &333652961
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333652960}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1580063306}
-  - {fileID: 465854516}
-  m_Father: {fileID: 1835192503}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &359286838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -900,8 +868,8 @@ Transform:
   - {fileID: 588386512}
   - {fileID: 8082007610309549475}
   - {fileID: 815858028}
-  m_Father: {fileID: 333652961}
-  m_RootOrder: 1
+  m_Father: {fileID: 1835192503}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &521708434
 GameObject:
@@ -1032,7 +1000,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 85
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -1059,7 +1027,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536810749}
   m_LocalRotation: {x: 0.0009991247, y: -0.9998906, z: 0.014699355, w: -0.0013017058}
-  m_LocalPosition: {x: -0.16930489, y: 15.533995, z: 0.7022755}
+  m_LocalPosition: {x: -0.34, y: 15.95, z: 66.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3396,8 +3364,8 @@ Transform:
   - {fileID: 401938982}
   - {fileID: 359286839}
   - {fileID: 996602555}
-  m_Father: {fileID: 333652961}
-  m_RootOrder: 0
+  m_Father: {fileID: 1835192503}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1617808604
 PrefabInstance:
@@ -3993,7 +3961,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 333652961}
+  - {fileID: 465854516}
+  - {fileID: 1580063306}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4529,7 +4498,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.8773585, g: 0.864785, b: 0.7076807, a: 1}
-  m_Intensity: 1.3
+  m_Intensity: 1
   m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -6862,7 +6831,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.8773585, g: 0.864785, b: 0.7076807, a: 1}
-  m_Intensity: 1.3
+  m_Intensity: 1
   m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
