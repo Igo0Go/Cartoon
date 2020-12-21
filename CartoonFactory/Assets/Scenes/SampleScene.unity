@@ -208,12 +208,6 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 13705566}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &72293798 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 72293798, guid: fcd444d4eb36a2d4da4c82363d46ee84,
-    type: 3}
-  m_PrefabInstance: {fileID: 2194848226418619346}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &322373917
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,8 +920,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.007104397, y: -0.9935899, z: 0.06256069, w: 0.09388823}
-  m_LocalPosition: {x: 0.38121116, y: 1.1187651, z: 1.1695225}
+  m_LocalRotation: {x: 0.05952099, y: 0.93400407, z: -0.18564643, w: 0.29938105}
+  m_LocalPosition: {x: -18.702791, y: 11.930035, z: 20.887398}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -950,7 +944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &985523049
 Animator:
   serializedVersion: 3
@@ -1435,9 +1429,9 @@ PlayableDirector:
   - key: {fileID: 4134729943980219508, guid: 88d93d4f0320c734e93c29ea9bb97280, type: 2}
     value: {fileID: 2002634343}
   - key: {fileID: -1176665465862751516, guid: 88d93d4f0320c734e93c29ea9bb97280, type: 2}
-    value: {fileID: 72293798}
+    value: {fileID: 0}
   - key: {fileID: -6195135373478210518, guid: 88d93d4f0320c734e93c29ea9bb97280, type: 2}
-    value: {fileID: 1941282445}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1908338875
@@ -1472,12 +1466,6 @@ Transform:
   m_Father: {fileID: 349911656}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1941282445 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1941282445, guid: fcd444d4eb36a2d4da4c82363d46ee84,
-    type: 3}
-  m_PrefabInstance: {fileID: 2194848226418619346}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2002634343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2194848226789682893, guid: fcd444d4eb36a2d4da4c82363d46ee84,
