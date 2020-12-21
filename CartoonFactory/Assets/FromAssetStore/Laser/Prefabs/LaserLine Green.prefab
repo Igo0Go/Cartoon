@@ -99,6 +99,9 @@ MonoBehaviour:
   decals:
   - {fileID: 1031451040819222973, guid: ee9497dc80daeb6439b7df00d357e040, type: 3}
   - {fileID: 7380580422396125105, guid: a3900299be4ffcb4386aff4e9138bf7c, type: 3}
+  ignoreMask:
+    serializedVersion: 2
+    m_Bits: 4
 --- !u!1 &8069931068051836051
 GameObject:
   m_ObjectHideFlags: 0
