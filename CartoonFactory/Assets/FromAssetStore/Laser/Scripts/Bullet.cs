@@ -10,6 +10,8 @@ public class Bullet : MonoBehaviour
     [SerializeField]
     private LayerMask ignoreMask;
 
+    private bool connectDecals;
+
     private float bulletSpeed;
     private float bulletLiveTime;
 
@@ -27,8 +29,9 @@ public class Bullet : MonoBehaviour
     /// </summary>
     /// <param name="speed">Скорость снаряда</param>
     /// <param name="liveTime">время жизни снаряда</param>
-    public void LaunchBullet(float speed, float liveTime)
+    public void LaunchBullet(float speed, float liveTime, bool connectDecal)
     {
+        connectDecals = connectDecal;
         bulletLiveTime = liveTime;
         bulletSpeed = speed;
         oldPos = myTransform.position;
@@ -72,7 +75,15 @@ public class Bullet : MonoBehaviour
 
             for (int i = 0; i < decals.Count; i++)
             {
-                Instantiate(decals[i], hit.point + hit.normal * 0.1f, Quaternion.identity).transform.forward = hit.normal;
+                if(connectDecals)
+                {
+                    Instantiate(decals[i], hit.point + hit.normal * 0.1f, Quaternion.identity, hit.transform).
+                        transform.forward = hit.normal;
+                }
+                else
+                {
+                    Instantiate(decals[i], hit.point + hit.normal * 0.1f, Quaternion.identity).transform.forward = hit.normal;
+                }
             }
             Destroy(gameObject);
         }
