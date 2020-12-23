@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 474596662835042704}
+  - component: {fileID: 1941282445}
   m_Layer: 0
   m_Name: Eyes
   m_TagString: Untagged
@@ -34,6 +35,25 @@ Transform:
   m_Father: {fileID: 9037645893953162107}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1941282445
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6180625763226642254}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &9037645893590098762
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,6 +173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9037645893887353661}
+  - component: {fileID: 72293798}
   m_Layer: 0
   m_Name: Mouth
   m_TagString: Untagged
@@ -168,13 +189,32 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9037645893887353660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0365, z: 0.0238}
+  m_LocalPosition: {x: 0, y: -0.0282, z: 0.0238}
   m_LocalScale: {x: 1, y: 7.0739, z: 1}
   m_Children:
   - {fileID: 9037645895077041590}
   m_Father: {fileID: 9037645893953162107}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &72293798
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9037645893887353660}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &9037645893953162106
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,7 +238,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9037645893953162106}
-  m_LocalRotation: {x: 0.15701067, y: -0, z: -0, w: 0.9875969}
+  m_LocalRotation: {x: 0.15701188, y: 0, z: 0, w: 0.98759675}
   m_LocalPosition: {x: 0, y: 0.032, z: 0.085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -206,7 +246,7 @@ Transform:
   - {fileID: 474596662835042704}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 18.067001, y: 0, z: 0}
 --- !u!1 &9037645893975496247
 GameObject:
   m_ObjectHideFlags: 0

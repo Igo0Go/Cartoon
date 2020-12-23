@@ -7,6 +7,9 @@ public class Bullet : MonoBehaviour
     [SerializeField]
     private List<GameObject> decals = null;
 
+    [SerializeField]
+    private LayerMask ignoreMask;
+
     private float bulletSpeed;
     private float bulletLiveTime;
 
@@ -43,10 +46,30 @@ public class Bullet : MonoBehaviour
         }
     }
 
+
     private void CheckHit()
     {
-        if(Physics.Linecast(oldPos, myTransform.position, out RaycastHit hit))
+        if(Physics.Linecast(oldPos, myTransform.position, out RaycastHit hit, ~ignoreMask))
         {
+            if(hit.collider.gameObject.TryGetComponent(out SpaceDron drone))
+            {
+                drone.Explosion();
+                for (int i = 0; i < decals.Count-1; i++)
+                {
+                    Instantiate(decals[i], hit.point + hit.normal * 0.1f, Quaternion.identity).transform.forward = hit.normal;
+                }
+                return;
+            }
+            else
+            {
+                var par = hit.transform.parent;
+                if (par != null && par.gameObject.TryGetComponent(out EnergyShield energyShield))
+                {
+                    energyShield.OnDamage();
+                    return;
+                }
+            }
+
             for (int i = 0; i < decals.Count; i++)
             {
                 Instantiate(decals[i], hit.point + hit.normal * 0.1f, Quaternion.identity).transform.forward = hit.normal;
