@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(AudioSource))]
 public class ShootModule : MonoBehaviour
@@ -17,7 +18,10 @@ public class ShootModule : MonoBehaviour
     private Transform startShootPoint = null;
 
     [SerializeField]
-    private Transform targetShootPoint = null;
+    private List<Transform> targetShootPoints = null;
+
+    [SerializeField]
+    private int currentActiveTargetIndex = 0;
 
     [SerializeField]
     [Range(1,100)]
@@ -35,8 +39,6 @@ public class ShootModule : MonoBehaviour
     private bool shoot = false;
     [SerializeField]
     private bool onceShoot = false;
-    [SerializeField]
-    private bool connectDecals = false;
     [SerializeField]
     private bool debug = false;
 
@@ -98,8 +100,8 @@ public class ShootModule : MonoBehaviour
     private void InstanceBullet()
     {
         var bul = Instantiate(bullet, startShootPoint.position, Quaternion.identity);
-        bul.transform.forward = targetShootPoint.position - startShootPoint.position;
-        bul.GetComponent<Bullet>().LaunchBullet(bulletSpeed, bulletLifetime, connectDecals);
+        bul.transform.forward = targetShootPoints[currentActiveTargetIndex].position - startShootPoint.position;
+        bul.GetComponent<Bullet>().LaunchBullet(bulletSpeed, bulletLifetime);
         shootSource.PlayOneShot(shootClip);
     }
 
@@ -115,7 +117,7 @@ public class ShootModule : MonoBehaviour
         if(debug)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawLine(startShootPoint.position, targetShootPoint.position);
+            Gizmos.DrawLine(startShootPoint.position, targetShootPoints[currentActiveTargetIndex].position);
         }
     }
 #endif
