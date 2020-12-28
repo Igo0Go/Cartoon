@@ -1284,13 +1284,16 @@ MonoBehaviour:
   muzzleFlash: {fileID: 8549683792852260885}
   shootClip: {fileID: 8300000, guid: 67f76143878f743b1b9edc979752979a, type: 3}
   startShootPoint: {fileID: 7872922703679519322}
-  targetShootPoint: {fileID: 7872922705633682418}
+  targetShootPoints:
+  - {fileID: 7872922705633682418}
+  currentActiveTargetIndex: 0
   bulletSpeed: 17
   bulletLifetime: 7
   shootPause: 0.3
   shoot: 0
   onceShoot: 1
   debug: 1
+  connectDecals: 1
 --- !u!1 &325461550789686881
 GameObject:
   m_ObjectHideFlags: 0

@@ -42,6 +42,9 @@ public class ShootModule : MonoBehaviour
     [SerializeField]
     private bool debug = false;
 
+    [SerializeField]
+    private bool connectDecals = true;
+
     private AudioSource shootSource;
 
     private float currentShootPauseValue = 0;
@@ -101,7 +104,7 @@ public class ShootModule : MonoBehaviour
     {
         var bul = Instantiate(bullet, startShootPoint.position, Quaternion.identity);
         bul.transform.forward = targetShootPoints[currentActiveTargetIndex].position - startShootPoint.position;
-        bul.GetComponent<Bullet>().LaunchBullet(bulletSpeed, bulletLifetime);
+        bul.GetComponent<Bullet>().LaunchBullet(bulletSpeed, bulletLifetime, connectDecals);
         shootSource.PlayOneShot(shootClip);
     }
 

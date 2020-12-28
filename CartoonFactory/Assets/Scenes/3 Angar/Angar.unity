@@ -7535,7 +7535,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 100
   field of view: 60
   orthographic: 0
@@ -7562,8 +7562,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536810749}
-  m_LocalRotation: {x: 0.000042383177, y: 0.9990929, z: -0.04257358, w: 0.0009946246}
-  m_LocalPosition: {x: -7.9406195, y: 15.01638, z: -56.565266}
+  m_LocalRotation: {x: -0.06313827, y: -0.9292048, z: 0.3117583, w: -0.18814588}
+  m_LocalPosition: {x: -3.0479312, y: 1.8466835, z: -15.826623}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9259,50 +9259,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722425420}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &742165905
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 742165906}
-  - component: {fileID: 742165907}
-  m_Layer: 0
-  m_Name: FireShield
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &742165906
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742165905}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1001914183}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &742165907
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742165905}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 0.13747343}
-  m_Center: {x: 0.000000002773007, y: 3.3319153e-12, z: 0.43126324}
 --- !u!1 &750643137
 GameObject:
   m_ObjectHideFlags: 0
@@ -11851,12 +11807,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1001914183 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2194848225943073196, guid: fcd444d4eb36a2d4da4c82363d46ee84,
-    type: 3}
-  m_PrefabInstance: {fileID: 952622595}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1006355930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11943,6 +11893,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CombatBot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350096449836969361, guid: 3755827d715721647b10a3f12f7b4abb,
+        type: 3}
+      propertyPath: connectDecals
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3350096449836969363, guid: 3755827d715721647b10a3f12f7b4abb,
         type: 3}
@@ -12093,6 +12048,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Volume
       value: 0.225
+      objectReference: {fileID: 0}
+    - target: {fileID: 5344827008429581610, guid: 3755827d715721647b10a3f12f7b4abb,
+        type: 3}
+      propertyPath: connectDecals
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7124315107934884165, guid: 3755827d715721647b10a3f12f7b4abb,
         type: 3}
@@ -14636,6 +14596,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CombatBot
       objectReference: {fileID: 0}
+    - target: {fileID: 3350096449836969361, guid: 3755827d715721647b10a3f12f7b4abb,
+        type: 3}
+      propertyPath: connectDecals
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4570511668206921559, guid: 3755827d715721647b10a3f12f7b4abb,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -14765,6 +14730,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5344827008429581610, guid: 3755827d715721647b10a3f12f7b4abb,
+        type: 3}
+      propertyPath: connectDecals
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7124315107934884165, guid: 3755827d715721647b10a3f12f7b4abb,
         type: 3}
@@ -14912,7 +14882,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8086125, y: 1}
+    m_SensorSize: {x: 1.9401914, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -16224,7 +16194,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8086125, y: 1}
+    m_SensorSize: {x: 1.9401914, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -17757,7 +17727,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8086125, y: 1}
+    m_SensorSize: {x: 2.1267943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -22724,7 +22694,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8086125, y: 1}
+    m_SensorSize: {x: 2.1267943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -24343,7 +24313,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8086125, y: 1}
+    m_SensorSize: {x: 2.1267943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
