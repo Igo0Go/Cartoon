@@ -52,6 +52,7 @@ public class ShootModule : MonoBehaviour
 
     private void Awake()
     {
+        shoot = false;
         shootSource = GetComponent<AudioSource>();
     }
 
