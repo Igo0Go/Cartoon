@@ -1453,6 +1453,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2150574272521017271, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
         type: 3}
+      propertyPath: targetShootPoints.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150574272521017271, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
+        type: 3}
       propertyPath: onceShoot
       value: 1
       objectReference: {fileID: 0}
@@ -1466,6 +1471,11 @@ PrefabInstance:
       propertyPath: bulletLifetime
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2150574272521017271, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
+        type: 3}
+      propertyPath: targetShootPoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 3350096449967543148}
     - target: {fileID: 2150574272521017272, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
         type: 3}
       propertyPath: m_Name
@@ -1473,6 +1483,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 318cfddf6dcaa484ab34bf78920b2a4c, type: 3}
+--- !u!4 &3350096449836969360 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2150574272521017270, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 3721575352311609894}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3350096449836969361 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2150574272521017271, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
@@ -1485,9 +1501,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bcced5e1e47ec54baa38aa50e10c7f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &3350096449836969360 stripped
+--- !u!4 &3350096449967543148 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 2150574272521017270, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
+  m_CorrespondingSourceObject: {fileID: 2150574272391489866, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
     type: 3}
   m_PrefabInstance: {fileID: 3721575352311609894}
   m_PrefabAsset: {fileID: 0}
@@ -1575,6 +1591,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2150574272521017271, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
         type: 3}
+      propertyPath: targetShootPoints.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150574272521017271, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
+        type: 3}
       propertyPath: onceShoot
       value: 1
       objectReference: {fileID: 0}
@@ -1588,6 +1609,11 @@ PrefabInstance:
       propertyPath: bulletLifetime
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2150574272521017271, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
+        type: 3}
+      propertyPath: targetShootPoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 5344827008559045591}
     - target: {fileID: 2150574272521017272, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
         type: 3}
       propertyPath: m_Name
@@ -1613,3 +1639,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bcced5e1e47ec54baa38aa50e10c7f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &5344827008559045591 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2150574272391489866, guid: 318cfddf6dcaa484ab34bf78920b2a4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6337967861120529053}
+  m_PrefabAsset: {fileID: 0}

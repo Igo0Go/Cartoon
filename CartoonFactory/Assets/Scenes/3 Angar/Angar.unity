@@ -11894,6 +11894,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CombatBot
       objectReference: {fileID: 0}
+    - target: {fileID: 3350096449836969361, guid: 3755827d715721647b10a3f12f7b4abb,
+        type: 3}
+      propertyPath: connectDecals
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3350096449836969363, guid: 3755827d715721647b10a3f12f7b4abb,
         type: 3}
       propertyPath: m_Volume
@@ -12043,6 +12048,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Volume
       value: 0.225
+      objectReference: {fileID: 0}
+    - target: {fileID: 5344827008429581610, guid: 3755827d715721647b10a3f12f7b4abb,
+        type: 3}
+      propertyPath: connectDecals
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7124315107934884165, guid: 3755827d715721647b10a3f12f7b4abb,
         type: 3}
@@ -14586,6 +14596,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CombatBot
       objectReference: {fileID: 0}
+    - target: {fileID: 3350096449836969361, guid: 3755827d715721647b10a3f12f7b4abb,
+        type: 3}
+      propertyPath: connectDecals
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4570511668206921559, guid: 3755827d715721647b10a3f12f7b4abb,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -14715,6 +14730,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5344827008429581610, guid: 3755827d715721647b10a3f12f7b4abb,
+        type: 3}
+      propertyPath: connectDecals
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7124315107934884165, guid: 3755827d715721647b10a3f12f7b4abb,
         type: 3}
@@ -17707,7 +17727,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9401914, y: 1}
+    m_SensorSize: {x: 2.1267943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -22674,7 +22694,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9401914, y: 1}
+    m_SensorSize: {x: 2.1267943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -24293,7 +24313,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9401914, y: 1}
+    m_SensorSize: {x: 2.1267943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
