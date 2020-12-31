@@ -114,7 +114,7 @@ public class ShootModule : MonoBehaviour
 #if UNITY_EDITOR
     private void OnDrawGizmos()
     {
-        if(debug)
+        if(debug && currentActiveTargetIndex >= 0)
         {
             Gizmos.color = Color.red;
             Gizmos.DrawLine(startShootPoint.position, targetShootPoints[currentActiveTargetIndex].position);
